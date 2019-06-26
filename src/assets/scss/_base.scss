@@ -59,6 +59,23 @@ h2 {
   align-items: flex-start;
 }
 
+.textarea {
+  border: 1px solid #CCC;
+}
+
+.button {
+  background: #333;
+  padding: 10px 15px;
+  color: #FFF;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+
+  &:hover {
+    background: #666;
+  }
+}
+
 @media (max-width: 768px) {
   body {
     font-size: 18px;

@@ -1,5 +1,6 @@
 <template>
   <div class="cv">
+    <change-data :data="data" :updateData="updateData"></change-data>
     <header>
       <div class="content">
         <cv-header :data="data" />
@@ -84,23 +85,40 @@
 
 <script>
 import cvHeader from './components/cv/header'
+import changeData from './components/changeData'
 import about from './components/cv/about'
 import course from './components/cv/course'
 import job from './components/cv/job'
 import cvData from './assets/json/cv.json'
+import Vue from 'vue';
 
 export default {
   name: 'CV',
   components: {
     'cv-header': cvHeader,
+    'change-data': changeData,
     about,
     course,
     job
   },
+  created() {
+    const localStorageData = localStorage.getItem('cv_data');
+
+    if (localStorageData) {
+      this.data = JSON.parse(localStorageData);
+    } else {
+      this.data = cvData;
+    }
+  },
   data() {
     return {
-      data: cvData,
+      data: {},
     };
+  },
+  methods: {
+    updateData(newData) {
+      Vue.set(this, 'data', newData);
+    }
   }
 }
 </script>
