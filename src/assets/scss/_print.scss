@@ -1,0 +1,26 @@
+@media print {
+  .content {
+    width: 95%;
+  }
+
+  .header {
+    padding: 0;
+  }
+  .about {
+    padding: 10px 0;
+  }
+
+  .conteudo {
+    .ul-complementary-courses {
+      li.item {
+        display: inline-block !important;
+        width: 50% !important;
+        padding: 0 10px !important;
+      }
+    }
+  }
+
+  .hide-print {
+    display: none;
+  }
+}
