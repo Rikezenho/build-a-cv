@@ -40,145 +40,170 @@
     "Inglês intermediário/técnico",
     "Espanhol básico"
   ],
-  "school": {
-    "institute": "Universidade Presbiteriana Mackenzie",
-    "course": "Publicidade e Propaganda (Criação)",
-    "date": "Jan/2012 - Dez/2015",
-    "logo": "mackenzie.png"
-  },
-  "history": [
+  "additionalContent": [
     {
-      "position": "Líder técnico Front-end",
-      "provider": "Infracommerce - Vila Olímpia, São Paulo",
-      "description": "Estruturação de uma nova plataforma de e-commerce, liderança técnica e auxílio a equipe no dia-a-dia.",
-      "date": "Nov/18 - Atual"
+      "title": "Experiência profissional",
+      "content": [
+        {
+          "type": "history",
+          "data": [
+            {
+              "position": "Líder técnico Front-end",
+              "provider": "Infracommerce - Vila Olímpia, São Paulo",
+              "description": "Estruturação de uma nova plataforma de e-commerce, liderança técnica e auxílio a equipe no dia-a-dia.",
+              "date": "Nov/18 - Atual"
+            },
+            {
+              "position": "Desenvolvedor Front-end",
+              "provider": "Netshoes - Liberdade, São Paulo",
+              "description": "Atuação na equipe de novos produtos da plataforma Freedom, criação de novas lojas e desenvolvimento de ferramentas internas no admin da companhia, utilizando React e Redux. Criação também de ferramentas para o workflow da equipe.",
+              "date": "Abr/18 - Out/18"
+            },
+            {
+              "position": "Líder técnico Front-end",
+              "provider": "Infracommerce - Vila Olímpia, São Paulo",
+              "description": "Líder de desenvolvimento de novas lojas, coordenando e orientando a implantação das lojas desde o escopo até o lançamento; também boto a mão na massa, criando bibliotecas e scripts utilizando Javascript, jQuery e ES6. Criação de ferramentas para melhorar o workflow da equipe, como extensões para o navegador.",
+              "date": "Jul/16 - Abr/18",
+              "awards": ["Prêmio de revelação TI 2016"]
+            },
+            {
+              "position": "Desenvolvedor Full Stack",
+              "provider": "Agevole - Santo Amaro, São Paulo",
+              "description": "Criação e programação de sites institucionais, portais, hotsites promocionais, integração com banco de dados, sites em WordPress, além de ferramentas para melhorar processos e também auxílio da equipe em questões de web e digital.",
+              "date": "Jan/14 - Mar/16"
+            },
+            {
+              "position": "Webdeveloper",
+              "provider": "Jornal Nippak - Liberdade, São Paulo",
+              "description": "Atualização do portal do Jornal, desenvolvimento de ferramentas internas para a equipe e também campanhas online.",
+              "date": "Ago/12 - Mar/13"
+            },
+            {
+              "position": "Webdesigner",
+              "provider": "Agência Elementare - Vila Carrão, São Paulo",
+              "description": "Estruturação e montagem de sites utilizando PHP, ASP, CSS, Javascript (framework jQuery). Desenvolvimento de painéis de controle, sistemas de gerenciamento de conteúdo e interfaces de usuário.",
+              "date": "Ago/08 - Jun/10"
+            }
+          ]
+        }
+      ]
     },
     {
-      "position": "Desenvolvedor Front-end",
-      "provider": "Netshoes - Liberdade, São Paulo",
-      "description": "Atuação na equipe de novos produtos da plataforma Freedom, criação de novas lojas e desenvolvimento de ferramentas internas no admin da companhia, utilizando React e Redux. Criação também de ferramentas para o workflow da equipe.",
-      "date": "Abr/18 - Out/18"
+      "title": "Cursos",
+      "content": [
+        {
+          "type": "courses",
+          "data": [
+            {
+              "institute": "Udemy (online)",
+              "course": "React + Redux (by Leonardo Moura Leitão)",
+              "date": "Set/2018",
+              "logo": "udemy.png"
+            },
+            {
+              "institute": "Udemy (online)",
+              "course": "Learn and Understand NodeJS (by Tony Alicea)",
+              "date": "Jun/2018",
+              "logo": "udemy.png"
+            },
+            {
+              "institute": "Alura (online)",
+              "course": "HTTP: Entendendo a web por baixo dos panos",
+              "date": "Fev/2018",
+              "logo": "alura.png"
+            },
+            {
+              "institute": "Alura (online)",
+              "course": "Vue.js parte 2: construindo Single Page Applications",
+              "date": "Dez/2017",
+              "logo": "alura.png"
+            },
+            {
+              "institute": "Alura (online)",
+              "course": "JavaScript avançado I: ES6, orientação a objetos e padrões de projetos",
+              "date": "Dez/2016",
+              "logo": "alura.png"
+            },
+            {
+              "institute": "Udemy (online)",
+              "course": "Curso de UX para Webdesigners",
+              "date": "Out/2014",
+              "logo": "udemy.png"
+            }
+          ]
+        }
+      ]
     },
     {
-      "position": "Líder técnico Front-end",
-      "provider": "Infracommerce - Vila Olímpia, São Paulo",
-      "description": "Líder de desenvolvimento de novas lojas, coordenando e orientando a implantação das lojas desde o escopo até o lançamento; também boto a mão na massa, criando bibliotecas e scripts utilizando Javascript, jQuery e ES6. Criação de ferramentas para melhorar o workflow da equipe, como extensões para o navegador.",
-      "date": "Jul/16 - Abr/18",
-      "awards": ["Prêmio de revelação TI 2016"]
-    },
-    {
-      "position": "Desenvolvedor Full Stack",
-      "provider": "Agevole - Santo Amaro, São Paulo",
-      "description": "Criação e programação de sites institucionais, portais, hotsites promocionais, integração com banco de dados, sites em WordPress, além de ferramentas para melhorar processos e também auxílio da equipe em questões de web e digital.",
-      "date": "Jan/14 - Mar/16"
-    },
-    {
-      "position": "Webdeveloper",
-      "provider": "Jornal Nippak - Liberdade, São Paulo",
-      "description": "Atualização do portal do Jornal, desenvolvimento de ferramentas internas para a equipe e também campanhas online.",
-      "date": "Ago/12 - Mar/13"
-    },
-    {
-      "position": "Webdesigner",
-      "provider": "Agência Elementare - Vila Carrão, São Paulo",
-      "description": "Estruturação e montagem de sites utilizando PHP, ASP, CSS, Javascript (framework jQuery). Desenvolvimento de painéis de controle, sistemas de gerenciamento de conteúdo e interfaces de usuário.",
-      "date": "Ago/08 - Jun/10"
-    }
-  ],
-  "complementary": [
-    {
-      "institute": "Udemy (online)",
-      "course": "React + Redux (by Leonardo Moura Leitão)",
-      "date": "Set/2018",
-      "logo": "udemy.png"
-    },
-    {
-      "institute": "Udemy (online)",
-      "course": "Learn and Understand NodeJS (by Tony Alicea)",
-      "date": "Jun/2018",
-      "logo": "udemy.png"
-    },
-    {
-      "institute": "Alura (online)",
-      "course": "HTTP: Entendendo a web por baixo dos panos",
-      "date": "Fev/2018",
-      "logo": "alura.png"
-    },
-    {
-      "institute": "Alura (online)",
-      "course": "Vue.js parte 2: construindo Single Page Applications",
-      "date": "Dez/2017",
-      "logo": "alura.png"
-    },
-    {
-      "institute": "Alura (online)",
-      "course": "JavaScript avançado I: ES6, orientação a objetos e padrões de projetos",
-      "date": "Dez/2016",
-      "logo": "alura.png"
-    },
-    {
-      "institute": "Udemy (online)",
-      "course": "Curso de UX para Webdesigners",
-      "date": "Out/2014",
-      "logo": "udemy.png"
-    }
-  ],
-  "nodeLists": {
-    "experience": {
       "title": "Tenho experiência ou já trabalhei com...",
-      "items": [
-        "HTML",
-        "CSS",
-        "SCSS",
-        "Bootstrap",
-        "Chrome Extensions",
-        "JavaScript",
-        "ES6+",
-        "React",
-        "Redux",
-        "Ant Design",
-        "Vue.js",
-        "jQuery",
-        "Git",
-        "SVN",
-        "CI/CD",
-        "Gulp.js",
-        "Webpack",
-        "Parcel.js",
-        "Bower",
-        "Express",
-        "Node.js",
-        "MongoDB",
-        "Dust.js",
-        "Mustache.js",
-        "JSF",
-        "Apache Velocity",
-        "PHP",
-        "MySQL",
-        "WordPress",
-        "Scrum",
-        "Kanban",
-        "Design responsivo",
-        "Design de interfaces",
-        "SEO",
-        "Google Analytics",
-        "GTM"
+      "content": [
+        {
+          "type": "nodelist",
+          "data": [
+            "HTML",
+            "CSS",
+            "SCSS",
+            "Bootstrap",
+            "Chrome Extensions",
+            "JavaScript",
+            "ES6+",
+            "React",
+            "Redux",
+            "Ant Design",
+            "Vue.js",
+            "jQuery",
+            "Git",
+            "SVN",
+            "CI/CD",
+            "Gulp.js",
+            "Webpack",
+            "Parcel.js",
+            "Bower",
+            "Express",
+            "Node.js",
+            "MongoDB",
+            "Dust.js",
+            "Mustache.js",
+            "JSF",
+            "Apache Velocity",
+            "PHP",
+            "MySQL",
+            "WordPress",
+            "Scrum",
+            "Kanban",
+            "Design responsivo",
+            "Design de interfaces",
+            "SEO",
+            "Google Analytics",
+            "GTM"
+          ]
+        }
       ]
     },
-    "stillLearning": {
+    {
       "title": "Aperfeiçoando...",
-      "items": ["GraphQL", "Apollo", "TDD", "E2E Tests", "Docker"]
+      "content": [
+        {
+          "type": "nodelist",
+          "data": ["GraphQL", "Apollo", "TDD", "E2E Tests", "Docker"]
+        }
+      ]
     },
-    "softwares": {
-      "title": "Softwares com aptidão",
-      "items": [
-        "SO Windows",
-        "Ubuntu",
-        "VS Code",
-        "Adobe Photoshop",
-        "Pacote Office",
-        "Google Docs/Sheets/Presentations"
+    {
+      "title": "Softwares",
+      "content": [
+        {
+          "type": "nodelist",
+          "data": [
+            "SO Windows",
+            "Ubuntu",
+            "VS Code",
+            "Adobe Photoshop",
+            "Pacote Office",
+            "Google Docs/Sheets/Presentations"
+          ]
+        }
       ]
     }
-  }
+  ]
 }
