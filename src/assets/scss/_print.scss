@@ -11,6 +11,14 @@
   }
 
   .conteudo {
+    .course-item {
+      .logo {
+        width: 10%;
+      }
+      .info {
+        width: 90%;
+      }
+    }
     .ul-complementary-courses {
       li.item {
         display: inline-block !important;

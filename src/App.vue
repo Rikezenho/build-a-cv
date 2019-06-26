@@ -27,14 +27,15 @@
           :key="`additional-${key}`"
           class="has-hr"
         >
-          <h2>{{ content.title }}</h2>
-          <template
+          <div
             v-for="(subContent, subContentIndex) in content.content"
+            :class="subContent.type === 'courses' ? 'avoid-page-break' : ''"
+            :key="`subContent-${subContentIndex}`"
           >
+            <h2>{{ content.title }}</h2>
             <ul
               class="ul-history"
               v-if="subContent.type === 'history'"
-              :key="`history-${subContentIndex}`"
             >
               <li
                 v-for="(history, index) in subContent.data"
@@ -45,9 +46,8 @@
             </ul>
 
             <ul
-              class="ul-courses avoid-page-break"
+              class="ul-courses"
               v-if="subContent.type === 'courses'"
-              :key="`courses-${subContentIndex}`"
             >
               <li
                 v-for="(course, index) in subContent.data"
@@ -60,7 +60,6 @@
             <ul
               class="ul-nodelists"
               v-if="subContent.type === 'nodelist'"
-              :key="`nodelist-${subContentIndex}`"
             >
               <li
                 v-for="(node, key) in subContent.data"
@@ -69,7 +68,7 @@
                 <div class="box">{{ node }}</div>
               </li>
             </ul>
-          </template>
+          </div>
         </div>
 
       </div>
