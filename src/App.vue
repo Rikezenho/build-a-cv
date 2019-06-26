@@ -45,7 +45,7 @@
             </ul>
 
             <ul
-              class="ul-courses"
+              class="ul-courses avoid-page-break"
               v-if="subContent.type === 'courses'"
               :key="`courses-${subContentIndex}`"
             >
