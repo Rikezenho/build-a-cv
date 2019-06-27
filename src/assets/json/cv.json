@@ -3,16 +3,16 @@
   "colorHighlight": "#3C5598",
   "title": "Henrique Hideki Kuwai",
   "subtitle": "Solteiro, brasileiro",
-  "description": "Trabalho com desenvolvimento web desde os 15 anos criando todo tipo de site e aplicação para a web. Hoje, foco mais na parte de front-end.<br/>Desenvolvi o trabalho mais importante da minha carreira atuando como líder de desenvolvimento de novas lojas na Infracommerce, empresa full-service de e-commerce. Sou curioso e autodidata por natureza, sempre em busca de novos aprendizados.",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br/>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
   "linkedin": "http://br.linkedin.com/in/henriquekuwai",
   "personal": {
-    "birthDate": "20/06/1993",
-    "address": "Rua Guatapará, 215 - Vila Guarani - 04310-040 - São Paulo, SP"
+    "birthDate": "20/06/1990",
+    "address": "Rua das Laranjeiras, 300 - Vila Jaboticaba - 04310-100 - São Paulo, SP"
   },
   "contacts": [
     {
       "icon": "whatsapp",
-      "text": "(11) 98877-9888"
+      "text": "(11) 98888-8888"
     },
     {
       "icon": "envelope",
@@ -48,41 +48,29 @@
           "type": "history",
           "data": [
             {
-              "position": "Líder técnico Front-end",
-              "provider": "Infracommerce - Vila Olímpia, São Paulo",
-              "description": "Estruturação de uma nova plataforma de e-commerce, liderança técnica e auxílio a equipe no dia-a-dia.",
+              "position": "Líder",
+              "provider": "Empresa Teste - Paulista, São Paulo",
+              "description": "Gerenciamento da equipe, desenvolvimento de sistemas internos e processos.",
               "date": "Nov/18 - Atual"
             },
             {
-              "position": "Desenvolvedor Front-end",
-              "provider": "Netshoes - Liberdade, São Paulo",
-              "description": "Atuação na equipe de novos produtos da plataforma Freedom, criação de novas lojas e desenvolvimento de ferramentas internas no admin da companhia, utilizando React e Redux. Criação também de ferramentas para o workflow da equipe.",
+              "position": "Líder",
+              "provider": "Empresa Teste - Paulista, São Paulo",
+              "description": "Gerenciamento da equipe, desenvolvimento de sistemas internos e processos.",
               "date": "Abr/18 - Out/18"
             },
             {
-              "position": "Líder técnico Front-end",
-              "provider": "Infracommerce - Vila Olímpia, São Paulo",
-              "description": "Líder de desenvolvimento de novas lojas, coordenando e orientando a implantação das lojas desde o escopo até o lançamento; também boto a mão na massa, criando bibliotecas e scripts utilizando Javascript, jQuery e ES6. Criação de ferramentas para melhorar o workflow da equipe, como extensões para o navegador.",
+              "position": "Líder",
+              "provider": "Empresa Teste - Paulista, São Paulo",
+              "description": "Gerenciamento da equipe, desenvolvimento de sistemas internos e processos.",
               "date": "Jul/16 - Abr/18",
               "awards": ["Prêmio de revelação TI 2016"]
             },
             {
-              "position": "Desenvolvedor Full Stack",
-              "provider": "Agevole - Santo Amaro, São Paulo",
-              "description": "Criação e programação de sites institucionais, portais, hotsites promocionais, integração com banco de dados, sites em WordPress, além de ferramentas para melhorar processos e também auxílio da equipe em questões de web e digital.",
+              "position": "Líder",
+              "provider": "Empresa Teste - Paulista, São Paulo",
+              "description": "Gerenciamento da equipe, desenvolvimento de sistemas internos e processos.",
               "date": "Jan/14 - Mar/16"
-            },
-            {
-              "position": "Webdeveloper",
-              "provider": "Jornal Nippak - Liberdade, São Paulo",
-              "description": "Atualização do portal do Jornal, desenvolvimento de ferramentas internas para a equipe e também campanhas online.",
-              "date": "Ago/12 - Mar/13"
-            },
-            {
-              "position": "Webdesigner",
-              "provider": "Agência Elementare - Vila Carrão, São Paulo",
-              "description": "Estruturação e montagem de sites utilizando PHP, ASP, CSS, Javascript (framework jQuery). Desenvolvimento de painéis de controle, sistemas de gerenciamento de conteúdo e interfaces de usuário.",
-              "date": "Ago/08 - Jun/10"
             }
           ]
         }
@@ -96,39 +84,39 @@
           "data": [
             {
               "institute": "Udemy (online)",
-              "course": "React + Redux (by Leonardo Moura Leitão)",
+              "course": "Curso bacana (by Leitão Junior)",
               "date": "Set/2018",
-              "logo": "udemy.png"
+              "logo": "https://dme8nb6778xpo.cloudfront.net/images/app/service_logos/11/e256473a23ee/large.png?1531527803"
             },
             {
               "institute": "Udemy (online)",
-              "course": "Learn and Understand NodeJS (by Tony Alicea)",
+              "course": "Curso bacana (by Leitão Junior)",
               "date": "Jun/2018",
-              "logo": "udemy.png"
-            },
-            {
-              "institute": "Alura (online)",
-              "course": "HTTP: Entendendo a web por baixo dos panos",
-              "date": "Fev/2018",
-              "logo": "alura.png"
-            },
-            {
-              "institute": "Alura (online)",
-              "course": "Vue.js parte 2: construindo Single Page Applications",
-              "date": "Dez/2017",
-              "logo": "alura.png"
-            },
-            {
-              "institute": "Alura (online)",
-              "course": "JavaScript avançado I: ES6, orientação a objetos e padrões de projetos",
-              "date": "Dez/2016",
-              "logo": "alura.png"
+              "logo": "https://dme8nb6778xpo.cloudfront.net/images/app/service_logos/11/e256473a23ee/large.png?1531527803"
             },
             {
               "institute": "Udemy (online)",
-              "course": "Curso de UX para Webdesigners",
+              "course": "Curso bacana (by Leitão Junior)",
+              "date": "Fev/2018",
+              "logo": "https://dme8nb6778xpo.cloudfront.net/images/app/service_logos/11/e256473a23ee/large.png?1531527803"
+            },
+            {
+              "institute": "Udemy (online)",
+              "course": "Curso bacana (by Leitão Junior)",
+              "date": "Dez/2017",
+              "logo": "https://dme8nb6778xpo.cloudfront.net/images/app/service_logos/11/e256473a23ee/large.png?1531527803"
+            },
+            {
+              "institute": "Udemy (online)",
+              "course": "Curso bacana (by Leitão Junior)",
+              "date": "Dez/2016",
+              "logo": "https://dme8nb6778xpo.cloudfront.net/images/app/service_logos/11/e256473a23ee/large.png?1531527803"
+            },
+            {
+              "institute": "Udemy (online)",
+              "course": "Curso bacana (by Leitão Junior)",
               "date": "Out/2014",
-              "logo": "udemy.png"
+              "logo": "https://dme8nb6778xpo.cloudfront.net/images/app/service_logos/11/e256473a23ee/large.png?1531527803"
             }
           ]
         }
@@ -149,30 +137,7 @@
             "ES6+",
             "React",
             "Redux",
-            "Ant Design",
             "Vue.js",
-            "jQuery",
-            "Git",
-            "SVN",
-            "CI/CD",
-            "Gulp.js",
-            "Webpack",
-            "Parcel.js",
-            "Bower",
-            "Express",
-            "Node.js",
-            "MongoDB",
-            "Dust.js",
-            "Mustache.js",
-            "JSF",
-            "Apache Velocity",
-            "PHP",
-            "MySQL",
-            "WordPress",
-            "Scrum",
-            "Kanban",
-            "Design responsivo",
-            "Design de interfaces",
             "SEO",
             "Google Analytics",
             "GTM"
