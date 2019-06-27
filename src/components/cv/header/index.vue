@@ -1,7 +1,8 @@
 <template>
   <div class="header">
+    <div class="logo" v-if="data.logo"><img :src="data.logo" /></div>
     <div class="text">
-      <h1><span :style="data.colorHighlight ? `color:${data.colorHighlight}` : ''">&raquo;</span> {{ data.title }}</h1>
+      <h1><span v-if="!data.logo" :style="data.colorHighlight ? `color:${data.colorHighlight}` : ''">&raquo;</span> {{ data.title }}</h1>
       <div class="subtitulo">
         <template v-if="data.subtitle">{{ data.subtitle }} | </template>
         {{ getAge() }} anos
