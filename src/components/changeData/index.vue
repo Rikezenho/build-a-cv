@@ -2,6 +2,12 @@
     <div class="changeData hide-print">
         <div class="handlers">
             <button
+                class="handler-button edit-mode-handler"
+                id="edit-mode-handler"
+                title="Modo edição"
+                @click="toggleEditMode"
+            ><i class="fa fa-pencil"></i> {{ editMode ? 'Desativar' : 'Ativar' }} edit mode</button>
+            <button
                 class="handler-button edit-handler"
                 id="edit-handler"
                 title="Editar"
@@ -37,6 +43,9 @@
 </template>
 
 <script>
+import { mapState, mapMutations } from 'vuex';
+import constants from '../../store/constants';
+
 const isValidJSON = (string) => {
     try {
         JSON.parse(string);
@@ -73,6 +82,9 @@ export default {
             tempData: JSON.stringify(this.data, null, '\t'),
         };
     },
+    computed: mapState([
+        'editMode',
+    ]),
     methods: {
         toggleForm() {
             this.showForm = !this.showForm;
@@ -97,7 +109,10 @@ export default {
             localStorage.setItem('cv_data', '');
             this.hasSavedData = false;
             alert('Alterações salvas limpas!');
-        }
+        },
+        ...mapMutations({
+            toggleEditMode: constants.TOGGLE_EDIT_MODE
+        }),
     }
 }
 </script>

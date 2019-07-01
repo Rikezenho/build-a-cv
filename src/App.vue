@@ -83,6 +83,7 @@
 </template>
 
 <script>
+import { mapState } from 'vuex';
 import cvHeader from './components/cv/header'
 import changeData from './components/changeData'
 import about from './components/cv/about'
@@ -114,6 +115,9 @@ export default {
       data: {},
     };
   },
+  computed: mapState([
+    'editMode',
+  ]),
   methods: {
     updateData(newData) {
       Vue.set(this, 'data', newData);
