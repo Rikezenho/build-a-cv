@@ -5,34 +5,35 @@
       <div class="content">
         <cv-header :data="data" />
       </div>
-      <about :data="data" />
     </header>
+    <about :data="data" />
     <div class="conteudo">
       <div class="content">
         <div
-          v-if="!!data.description"
-          class="bio-wrapper">
-          <h2>Sobre</h2>
-          <div class="sobre">
-            <span v-html="data.description" />
-          </div>
-          <div class="bio" v-if="!!data.languages.length">
-            <strong>Idiomas:</strong><br>
-            {{ data.languages.join(', ') }}
-          </div>
-        </div>
-
-        <div
           v-for="(content, key) in data.additionalContent"
           :key="`additional-${key}`"
-          class="has-hr"
+          class="content-wrapper"
         >
+          <h2 v-if="content.title">{{ content.title }}</h2>
           <div
             v-for="(subContent, subContentIndex) in content.content"
             :class="subContent.type === 'courses' ? 'avoid-page-break' : ''"
             :key="`subContent-${subContentIndex}`"
           >
-            <h2>{{ content.title }}</h2>
+            <div
+              v-if="subContent.type === 'text-block'"
+              v-html="subContent.data"
+            >
+            </div>
+
+            <div
+              v-if="subContent.type === 'small-title-and-text'"
+              class="small-title-and-text"
+            >
+              <strong>{{ subContent.data.title }}:</strong><br/>
+              {{ subContent.data.text }}
+            </div>
+
             <ul
               class="ul-history"
               v-if="subContent.type === 'history'"

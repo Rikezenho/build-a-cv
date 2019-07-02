@@ -36,11 +36,17 @@ ul {
   width: 1190px;
   margin: 0 auto;
 }
-.has-hr {
-  border-top: 2px solid #efefef;
-  margin-top: 20px;
-  padding-top: 10px;
+
+.content-wrapper {
+  border-bottom: 2px solid #efefef;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+
+  &:last-child {
+    border-bottom: 0;
+  }
 }
+
 .avoid-page-break {
   page-break-inside: avoid;
 }
