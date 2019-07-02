@@ -81,10 +81,10 @@
         </div>
       </template>
     </div>
-    <footer class="footer">
+    <footer class="footer" v-if="data.footer.linkedin || data.footer.lastUpdate">
       <div class="container">
-        Veja mais no meu LinkedIn: <a :href="data.linkedin">{{ data.linkedin }}</a><br/>
-        Última atualização em {{ data.lastUpdate }}.
+        <template v-if="data.footer.linkedin">Veja mais no meu LinkedIn: <a :href="data.footer.linkedin">{{ data.footer.linkedin }}</a><br/></template>
+        <template v-if="data.footer.lastUpdate">Última atualização em {{ data.footer.lastUpdate }}.</template>
       </div>
     </footer>
   </div>

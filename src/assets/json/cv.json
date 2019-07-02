@@ -1,6 +1,8 @@
 {
-  "lastUpdate": "16 de Junho de 2019",
-  "linkedin": "http://br.linkedin.com/in/henriquekuwai",
+  "footer": {
+    "lastUpdate": "16 de Junho de 2019",
+    "linkedin": "http://br.linkedin.com/in/henriquekuwai"
+  },
   "content": [
     {
       "type": "header",
