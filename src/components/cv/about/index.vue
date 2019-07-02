@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-    <div class="content">
+    <div class="container">
       <div class="block">
         <div
           v-for="contact in data.contacts"
@@ -21,10 +21,10 @@
         </div>
       </div>
       <div
-        v-if="!!data.personal.address"
+        v-if="!!data.address"
         class="block"
         title="Endereço">
-        <i class="fa fa-map-marker"></i> {{ data.personal.address }}
+        <i class="fa fa-map-marker"></i> {{ data.address }}
       </div>
     </div>
   </div>

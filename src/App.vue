@@ -1,23 +1,31 @@
 <template>
   <div class="cv">
     <change-data :data="data" :updateData="updateData"></change-data>
-    <header>
-      <div class="content">
-        <cv-header :data="data" />
-      </div>
-    </header>
-    <about :data="data" />
-    <div class="conteudo">
-      <div class="content">
-        <div
-          v-for="(content, key) in data.additionalContent"
-          :key="`additional-${key}`"
-          class="content-wrapper"
+    <div class="main-content">
+      <template
+        v-for="(content, key) in data.content"
+      >
+        <template
+          v-if="content.type === 'header'"
         >
+          <cv-header
+            :key="`content-${key}`"
+            :data="content.data"
+          />    
+        </template>
+        <template
+          v-else-if="content.type === 'contact-block'"
+        >
+          <about
+            :key="`content-${key}`"
+            :data="content.data"
+          />
+        </template>
+        <div class="container content" :key="`content-${key}`" v-else>
           <h2 v-if="content.title">{{ content.title }}</h2>
           <div
             v-for="(subContent, subContentIndex) in content.content"
-            :class="subContent.type === 'courses' ? 'avoid-page-break' : ''"
+            :class="subContent.avoidPageBreak ? 'avoid-page-break' : ''"
             :key="`subContent-${subContentIndex}`"
           >
             <div
@@ -71,11 +79,10 @@
             </ul>
           </div>
         </div>
-
-      </div>
+      </template>
     </div>
     <footer class="footer">
-      <div class="content">
+      <div class="container">
         Veja mais no meu LinkedIn: <a :href="data.linkedin">{{ data.linkedin }}</a><br/>
         Última atualização em {{ data.lastUpdate }}.
       </div>

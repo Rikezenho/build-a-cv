@@ -1,41 +1,48 @@
 {
   "lastUpdate": "16 de Junho de 2019",
-  "colorHighlight": "#3C5598",
-  "logo": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD0AAABGCAMAAABIWWzZAAAA51BMVEUAAACm4i6m4i6m4i6m4i6m4i6m4i6m4i6m4i6m4i6m4i6m4i6m4i6m4i6m4i6m4i6m4i6m4i6m4i6m4i6m4i6m4i6m4i4nKCKo5i4lJCIwNSOd1S2r6i6t7C8hHyEjIiJIWCUfHSGFsismJiKu7i+n5C6q6C6ItitbdCcpKyKk3y6h2y2OvyweGyGv8C+WzC2DrytfeidCTyU8RySa0S16oip3nilohyhhfihddydNXyWTxyx0mSltjylYcSdSZyYxNyMnKSIbFiGLuytwlClVayYtMSMYEiCz9jB+qCo3QCQ3PyQ0OyMsZITJAAAAFnRSTlMA7Qvh88CmWDMcBd3RyoRyJefll4Y/ZIvxiAAAAkRJREFUWMOl2Olu4jAUBeCUspR2usx2Y4OT1NgOEAj7vpTSdbb3f55xAjNGSMPE9vnDNdInRUc3kRJHJVc408uH3IEugmY+Hegb0M250iWw0Bd5C12+AnN9WQAL/Rks9C1Y6K95C313BuY6dw0WuggW+gvY6LyVPqosJEnkINIB6el2XaYtcSsZal2hoVG14mPsP1YRqfsBxvGCHAlxWgeM4UoVeTWfMUbvj3QYndbYdXc6cF3XP9J8MiPG2mvjV89Uh63hU8NUi3BBqbHuTKlrrPkYM2PttZuBq61VY74r9YOJRmhB3URPDLTwZju8QUJfdyY+S47DFgJtLRvD8oTdZw8y6JbXqStNRj+Txpi/4pBBv9WX3dVfjcQ93cpDPOfi/1qmKePutSDzpLEtHUQIMmkm80d7K5rMwWOXQBatInU4qgRyYs0eB31N2uk/wVAgA41aA5qO005W7fs02Gsgy92lsx7PpNnby2Q8w3sNvId3tY3CLBpXos63Z7UtfBqnS74IBYD2porwlaZ8yg00oChtDuM6N9BAumlzwY9qqK/T5pIW4w0RBhr42mfJbTb2TLTgD7Hpc23f3Nb8eU66vwJzDbzGsLkG/uJbaOCNdwuNouHGXANZjsNTuvlEadyUuicH+j5ItQo6takC1vN+f76OBBrN+v1+43sI/87HvVbx0sgBcfnLCZxI4VJq05zfOeY6f+FY6JJjoW8dC110LPR1zkKflx2lDeq20CXHQt84FrqosMY7kdpulSvdTxXlA/wbNIFv6zGXO54AAAAASUVORK5CYII=",
-  "title": "Henrique Hideki Kuwai",
-  "subtitle": "Solteiro, brasileiro",
   "linkedin": "http://br.linkedin.com/in/henriquekuwai",
-  "personal": {
-    "birthDate": "20/06/1990",
-    "address": "Rua das Laranjeiras, 300 - Vila Jaboticaba - 04310-100 - São Paulo, SP"
-  },
-  "contacts": [
+  "content": [
     {
-      "icon": "whatsapp",
-      "text": "(11) 98888-8888"
+      "type": "header",
+      "data": {
+        "title": "Henrique Hideki Kuwai",
+        "subtitle": "Solteiro, brasileiro | 28 anos",
+        "colorHighlight": "#3C5598",
+        "logo": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD0AAABGCAMAAABIWWzZAAAA51BMVEUAAACm4i6m4i6m4i6m4i6m4i6m4i6m4i6m4i6m4i6m4i6m4i6m4i6m4i6m4i6m4i6m4i6m4i6m4i6m4i6m4i6m4i6m4i4nKCKo5i4lJCIwNSOd1S2r6i6t7C8hHyEjIiJIWCUfHSGFsismJiKu7i+n5C6q6C6ItitbdCcpKyKk3y6h2y2OvyweGyGv8C+WzC2DrytfeidCTyU8RySa0S16oip3nilohyhhfihddydNXyWTxyx0mSltjylYcSdSZyYxNyMnKSIbFiGLuytwlClVayYtMSMYEiCz9jB+qCo3QCQ3PyQ0OyMsZITJAAAAFnRSTlMA7Qvh88CmWDMcBd3RyoRyJefll4Y/ZIvxiAAAAkRJREFUWMOl2Olu4jAUBeCUspR2usx2Y4OT1NgOEAj7vpTSdbb3f55xAjNGSMPE9vnDNdInRUc3kRJHJVc408uH3IEugmY+Hegb0M250iWw0Bd5C12+AnN9WQAL/Rks9C1Y6K95C313BuY6dw0WuggW+gvY6LyVPqosJEnkINIB6el2XaYtcSsZal2hoVG14mPsP1YRqfsBxvGCHAlxWgeM4UoVeTWfMUbvj3QYndbYdXc6cF3XP9J8MiPG2mvjV89Uh63hU8NUi3BBqbHuTKlrrPkYM2PttZuBq61VY74r9YOJRmhB3URPDLTwZju8QUJfdyY+S47DFgJtLRvD8oTdZw8y6JbXqStNRj+Txpi/4pBBv9WX3dVfjcQ93cpDPOfi/1qmKePutSDzpLEtHUQIMmkm80d7K5rMwWOXQBatInU4qgRyYs0eB31N2uk/wVAgA41aA5qO005W7fs02Gsgy92lsx7PpNnby2Q8w3sNvId3tY3CLBpXos63Z7UtfBqnS74IBYD2porwlaZ8yg00oChtDuM6N9BAumlzwY9qqK/T5pIW4w0RBhr42mfJbTb2TLTgD7Hpc23f3Nb8eU66vwJzDbzGsLkG/uJbaOCNdwuNouHGXANZjsNTuvlEadyUuicH+j5ItQo6takC1vN+f76OBBrN+v1+43sI/87HvVbx0sgBcfnLCZxI4VJq05zfOeY6f+FY6JJjoW8dC110LPR1zkKflx2lDeq20CXHQt84FrqosMY7kdpulSvdTxXlA/wbNIFv6zGXO54AAAAASUVORK5CYII="
+      }
     },
     {
-      "icon": "envelope",
-      "text": "eu@henriquekuwai.com.br",
-      "href": "mailto:eu@henriquekuwai.com.br"
+      "type": "contact-block",
+      "data": {
+        "address": "Rua das Laranjeiras, 300 - Vila Jaboticaba - 04310-100 - São Paulo, SP",
+        "contacts": [
+          {
+            "icon": "whatsapp",
+            "text": "(11) 98888-8888"
+          },
+          {
+            "icon": "envelope",
+            "text": "eu@henriquekuwai.com.br",
+            "href": "mailto:eu@henriquekuwai.com.br"
+          },
+          {
+            "icon": "globe",
+            "text": "henriquekuwai.com.br",
+            "href": "https://henriquekuwai.com.br"
+          },
+          {
+            "icon": "github",
+            "text": "rikezenho",
+            "href": "https://github.com/rikezenho"
+          },
+          {
+            "icon": "linkedin",
+            "text": "Henrique Kuwai",
+            "href": "http://br.linkedin.com/in/henriquekuwai"
+          }
+        ]
+      }
     },
-    {
-      "icon": "globe",
-      "text": "henriquekuwai.com.br",
-      "href": "https://henriquekuwai.com.br"
-    },
-    {
-      "icon": "github",
-      "text": "rikezenho",
-      "href": "https://github.com/rikezenho"
-    },
-    {
-      "icon": "linkedin",
-      "text": "Henrique Kuwai",
-      "href": "http://br.linkedin.com/in/henriquekuwai"
-    }
-  ],
-  "additionalContent": [
     {
       "title": "Sobre",
       "content": [
@@ -92,6 +99,7 @@
       "content": [
         {
           "type": "courses",
+          "avoidPageBreak": true,
           "data": [
             {
               "institute": "Udemy (online)",

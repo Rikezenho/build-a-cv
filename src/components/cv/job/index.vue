@@ -45,28 +45,22 @@ export default {
   position: relative;
 
   .title {
-    overflow: hidden;
     font-weight: 700;
     font-size: 18px;
+    padding-bottom: 5px;
 
     .date {
       border: 2px solid #ccc;
       padding: 0 10px;
       border-radius: 5px;
-      float: left;
+      display: inline-block;
       margin-right: 5px;
       font-size: 14px;
+      vertical-align: middle;
     }
 
-    @media (max-width: 768px) {
-      .date {
-        float: none;
-        display: inline-block;
-      }
-      .text {
-        display: block;
-        padding-top: 10px;
-      }
+    .text {
+      vertical-align: middle;
     }
   }
   .provider {
